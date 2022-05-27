@@ -1,0 +1,4673 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.57.2 48842a1b",
+  "osm3s": {
+    "timestamp_osm_base": "2022-05-27T17:39:52Z",
+    "timestamp_areas_base": "2022-05-27T17:26:39Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 521143390,
+      "lat": 42.5717423,
+      "lon": 1.4844931,
+      "tags": {
+        "addr:city": "Arinsal",
+        "addr:housenumber": "16",
+        "addr:street": "Carretera d'Arinsal",
+        "name": "Supermercat Saint Moritz",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 521144650,
+      "lat": 42.5713942,
+      "lon": 1.4859614,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 590463654,
+      "lat": 42.5718415,
+      "lon": 1.4841776,
+      "tags": {
+        "addr:city": "Arinsal",
+        "addr:housenumber": "16",
+        "addr:street": "Carretera d'Arinsal",
+        "ele": "1482",
+        "name": "Esports Sant Moritz STM1",
+        "shop": "sports",
+        "sport": "skiing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 593870540,
+      "lat": 42.5724333,
+      "lon": 1.4716333,
+      "tags": {
+        "ele": "1966",
+        "name": "Esports Rossell",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 593870542,
+      "lat": 42.5728696,
+      "lon": 1.4708612,
+      "tags": {
+        "amenity": "ski_rental",
+        "clothes": "ski;snowboard",
+        "ele": "1923",
+        "name": "Pic Negre 3",
+        "shop": "sports",
+        "sport": "ski;snowboard"
+      }
+    },
+    {
+      "type": "node",
+      "id": 593870543,
+      "lat": 42.5729333,
+      "lon": 1.4708667,
+      "tags": {
+        "ele": "1912",
+        "name": "Lift Pass Office",
+        "shop": "lift_pass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 593870545,
+      "lat": 42.5730167,
+      "lon": 1.4713167,
+      "tags": {
+        "FIXME": "Need a proper name",
+        "ele": "1935",
+        "name": "Souvenir Shop at the Top of Gondola",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 690708590,
+      "lat": 42.5435488,
+      "lon": 1.7327237,
+      "tags": {
+        "addr:city": "Pas de la Casa",
+        "addr:housenumber": "25",
+        "addr:postcode": "AD200",
+        "addr:street": "Avinguda del Consell General",
+        "name": "Maxi Mercat",
+        "phone": "+376 855338",
+        "shop": "supermarket",
+        "website": "https://www.hiperpas.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 690708612,
+      "lat": 42.543212,
+      "lon": 1.7354792,
+      "tags": {
+        "name": "Hiper Pas IV",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 690708663,
+      "lat": 42.5425697,
+      "lon": 1.7347874,
+      "tags": {
+        "name": "Pic Mari",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 690734633,
+      "lat": 42.5416228,
+      "lon": 1.7321279,
+      "tags": {
+        "addr:city": "Pas de la Casa",
+        "brand": "Spar",
+        "brand:wikidata": "Q610492",
+        "brand:wikipedia": "en:Spar (retailer)",
+        "name": "Spar",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1407150637,
+      "lat": 42.5541678,
+      "lon": 1.5907759,
+      "tags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1407160080,
+      "lat": 42.4579992,
+      "lon": 1.4870765,
+      "tags": {
+        "name": "Centre Comercial Sant Eloi",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1499266441,
+      "lat": 42.5465247,
+      "lon": 1.513732,
+      "tags": {
+        "name": "Garralla",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1568150116,
+      "lat": 42.5778117,
+      "lon": 1.6493232,
+      "tags": {
+        "name": "Nordic Esports",
+        "shop": "sports",
+        "sport": "skiing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1568150125,
+      "lat": 42.5780351,
+      "lon": 1.6487875,
+      "tags": {
+        "name": "Pic Negre",
+        "shop": "sports",
+        "sport": "skiing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1568150130,
+      "lat": 42.578084,
+      "lon": 1.6482992,
+      "tags": {
+        "name": "Pic Negre",
+        "shop": "sports",
+        "sport": "skiing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1568150169,
+      "lat": 42.5794734,
+      "lon": 1.6491335,
+      "tags": {
+        "name": "Sports Calbo",
+        "shop": "sports",
+        "sport": "skiing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1568150507,
+      "lat": 42.579615,
+      "lon": 1.6522387,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1568150529,
+      "lat": 42.5796584,
+      "lon": 1.6481077,
+      "tags": {
+        "name": "Viladomat",
+        "shop": "sports",
+        "sport": "skiing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1579330426,
+      "lat": 42.5087003,
+      "lon": 1.5347141,
+      "tags": {
+        "addr:housenumber": "70",
+        "addr:street": "Avinguda Carlemany",
+        "brand": "Caprabo",
+        "brand:wikidata": "Q1980781",
+        "brand:wikipedia": "en:Caprabo",
+        "email": "clients@cca.ad",
+        "name": "Caprabo",
+        "name:ca": "Caprabo",
+        "name:es": "Caprabo",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-19:00",
+        "phone": "+376 870 310",
+        "shop": "supermarket",
+        "website": "https://www.caprabo.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1803703337,
+      "lat": 42.547324,
+      "lon": 1.5144977,
+      "tags": {
+        "branch": "City",
+        "brand": "Carrefour",
+        "brand:wikidata": "Q217599",
+        "brand:wikipedia": "fr:Carrefour (enseigne)",
+        "name": "Carrefour",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1934454824,
+      "lat": 42.5330637,
+      "lon": 1.5782038,
+      "tags": {
+        "name": "Plaus Sport Motor",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1934464735,
+      "lat": 42.5332997,
+      "lon": 1.5793076,
+      "tags": {
+        "shop": "pet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1934464744,
+      "lat": 42.5334163,
+      "lon": 1.5796965,
+      "tags": {
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1934464750,
+      "lat": 42.5333647,
+      "lon": 1.5795384,
+      "tags": {
+        "name": "Tallers Benjami",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1934464757,
+      "lat": 42.5335215,
+      "lon": 1.580147,
+      "tags": {
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1934464771,
+      "lat": 42.5332785,
+      "lon": 1.5796658,
+      "tags": {
+        "name": "Server",
+        "shop": "hifi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1934464773,
+      "lat": 42.5332806,
+      "lon": 1.5792389,
+      "tags": {
+        "name": "Comer la Clementina",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1934478614,
+      "lat": 42.5338047,
+      "lon": 1.5802459,
+      "tags": {
+        "shop": "jewelry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1934478617,
+      "lat": 42.53368,
+      "lon": 1.5801223,
+      "tags": {
+        "name": "Marroquineria Sussi",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2050364488,
+      "lat": 42.4686181,
+      "lon": 1.4934113,
+      "tags": {
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2050364500,
+      "lat": 42.4684717,
+      "lon": 1.4933845,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2050370615,
+      "lat": 42.4673677,
+      "lon": 1.4924833,
+      "tags": {
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2050445462,
+      "lat": 42.4627032,
+      "lon": 1.4910986,
+      "tags": {
+        "addr:country": "AD",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2050466657,
+      "lat": 42.4623746,
+      "lon": 1.4904638,
+      "tags": {
+        "name": "Jormabike",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2050466658,
+      "lat": 42.4622914,
+      "lon": 1.4905107,
+      "tags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2050563578,
+      "lat": 42.5107336,
+      "lon": 1.5338834,
+      "tags": {
+        "brand": "Toyota",
+        "brand:wikidata": "Q53268",
+        "brand:wikipedia": "en:Toyota",
+        "name": "TOYOTA MOTORS",
+        "service:vehicle:car_repair": "yes",
+        "shop": "car",
+        "website": "https://www.toyota.fr/reseau/dba88e89-1a05-4846-9252-ef5b2e24890d"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2411239913,
+      "lat": 42.5079632,
+      "lon": 1.5304282,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "92",
+        "addr:street": "Avinguda Meritxell",
+        "email": "clients@cca.ad",
+        "name": "Super U",
+        "opening_hours": "Mo-Sa 09:30-21:00; Su 09:00-20:00",
+        "phone": "+376 870 310",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2536215948,
+      "lat": 42.5057419,
+      "lon": 1.5297123,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:street": "Avinguda de Tarragona",
+        "email": "info@andorra2000.com",
+        "internet_access": "wlan",
+        "name": "Andorrra 2000",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+376880400",
+        "shop": "mall",
+        "website": "https://www.andorra2000.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2548382682,
+      "lat": 42.51118,
+      "lon": 1.5398588,
+      "tags": {
+        "shop": "florist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2880317476,
+      "lat": 42.5568931,
+      "lon": 1.5335135,
+      "tags": {
+        "name": "Com Nou",
+        "shop": "bicycle",
+        "website": "http://www.comnouandorra.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2880324091,
+      "lat": 42.508647,
+      "lon": 1.5284009,
+      "tags": {
+        "addr:street": "Avinguda Prat de la Creu",
+        "name": "Com Nou",
+        "shop": "bicycle",
+        "website": "http://www.comnouandorra.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2880657387,
+      "lat": 42.5082988,
+      "lon": 1.5368723,
+      "tags": {
+        "addr:city": "Escaldes-Engordany",
+        "addr:country": "AD",
+        "addr:housenumber": "95",
+        "addr:postcode": "AD700",
+        "addr:street": "Avinguda Carlemany",
+        "name": "Triatló",
+        "shop": "bicycle",
+        "website": "http://www.triatlobike.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2931438220,
+      "lat": 42.5089852,
+      "lon": 1.5287207,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "67",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda Meritxell",
+        "email": "info@fotocinecolor.com",
+        "internet_access": "wlan",
+        "name": "Foto Cine Color",
+        "opening_hours": "Mo-Su 10:00-14:00, 15:30-20:00",
+        "shop": "photo",
+        "website": "https://www.fotocinecolor.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2935854301,
+      "lat": 42.5087477,
+      "lon": 1.528568,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "76",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda Meritxell",
+        "name": "K-tuin (Apple)",
+        "opening_hours": "Su-Th 10:00-20:00; Fr-Sa 10:00-21:00",
+        "phone": "+376 813425",
+        "shop": "computer",
+        "website": "https://www.k-tuin.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2963134403,
+      "lat": 42.5079542,
+      "lon": 1.531336,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "110",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Viladomat Sport",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966544093,
+      "lat": 42.5082726,
+      "lon": 1.5337229,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "130",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda Meritxell",
+        "name": "base: Yeti Esports",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966554233,
+      "lat": 42.5506237,
+      "lon": 1.510961,
+      "tags": {
+        "name": "Sport Shop",
+        "note": "Winter: Ski, Summer: Downhill Bikes",
+        "service:bicycle": "rental",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966663491,
+      "lat": 42.5461555,
+      "lon": 1.5138496,
+      "tags": {
+        "name": "Pic Negre",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966750096,
+      "lat": 42.5465491,
+      "lon": 1.514082,
+      "tags": {
+        "addr:city": "La Massana",
+        "addr:postcode": "AD400",
+        "addr:street": "Avinguda Sant Antoni",
+        "name": "Pic Negre Sports",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966810431,
+      "lat": 42.5470176,
+      "lon": 1.5145127,
+      "tags": {
+        "addr:city": "La Massana",
+        "addr:postcode": "AD400",
+        "addr:street": "Avinguda el Travès",
+        "name": "Viladomat",
+        "note": "Ski in winter, bicycle in summer",
+        "operator": "Viladomat",
+        "shop": "sports",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966835305,
+      "lat": 42.5451897,
+      "lon": 1.5154193,
+      "tags": {
+        "addr:city": "La Massana",
+        "addr:postcode": "AD400",
+        "addr:street": "Avinguda Sant Antoni",
+        "name": "Charity Shop",
+        "opening_hours": "tu,th,fr 13:00-18:00",
+        "operator": "Charisma",
+        "shop": "second_hand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2966857116,
+      "lat": 42.5453663,
+      "lon": 1.5152085,
+      "tags": {
+        "addr:city": "La Massana",
+        "addr:postcode": "AD400",
+        "addr:street": "Avinguda Sant Antoni",
+        "amenity": "cafe",
+        "name": "Fleca Font",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2967198999,
+      "lat": 42.5456216,
+      "lon": 1.514711,
+      "tags": {
+        "addr:city": "La Massana",
+        "addr:postcode": "AD400",
+        "addr:street": "Avinguda Sant Antoni",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2967301661,
+      "lat": 42.5470503,
+      "lon": 1.5138657,
+      "tags": {
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2967334397,
+      "lat": 42.5458415,
+      "lon": 1.5144827,
+      "tags": {
+        "name": "Carnisseria Simonet",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2967432224,
+      "lat": 42.5458356,
+      "lon": 1.5177013,
+      "tags": {
+        "addr:city": "La Massana",
+        "addr:postcode": "AD400",
+        "addr:street": "Carrer el Travès",
+        "shop": "hardware"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2984313305,
+      "lat": 42.5088032,
+      "lon": 1.528719,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "78",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Gala Perfumeries",
+        "shop": "beauty"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2984321043,
+      "lat": 42.5078678,
+      "lon": 1.5233837,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "5",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Gala Perfumeries",
+        "shop": "beauty"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2984331125,
+      "lat": 42.5082754,
+      "lon": 1.5269791,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "58",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Gala Perfumeries",
+        "shop": "beauty"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3265170761,
+      "lat": 42.5044856,
+      "lon": 1.5244719,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:postcode": "AD500",
+        "addr:street": "Carrer Esteve Dolsa Pujol",
+        "operator": "local",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3269794936,
+      "lat": 42.5616393,
+      "lon": 1.4968058,
+      "tags": {
+        "addr:city": "Erts",
+        "addr:postcode": "AD400",
+        "alt_name": "COMMENCAL Supervelos",
+        "email": "info@commencal.com",
+        "fax": "+37673 74 90",
+        "image": "https://upload.wikimedia.org/wikipedia/ru/2/22/Commencal_logo.png",
+        "name": "COMMENCAL Bicycles",
+        "phone": "+376 73 74 75",
+        "shop": "bicycle",
+        "website": "https://www.commencal-store.com/",
+        "wikidata": "Q2986113",
+        "wikipedia": "ru:Commencal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3417115355,
+      "lat": 42.5097082,
+      "lon": 1.5458694,
+      "tags": {
+        "name": "Alpesport",
+        "shop": "outdoor",
+        "website": "http://www.alpesport.ad"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3459407907,
+      "lat": 42.4655197,
+      "lon": 1.4913109,
+      "tags": {
+        "addr:city": "Sant Julià de Lòria",
+        "brand": "Dia",
+        "brand:wikidata": "Q925132",
+        "brand:wikipedia": "es:Supermercados DIA",
+        "name": "Dia",
+        "opening_hours": "09:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3459456757,
+      "lat": 42.4670674,
+      "lon": 1.4921674,
+      "tags": {
+        "shop": "musical_instrument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3927454517,
+      "lat": 42.5084687,
+      "lon": 1.539961,
+      "tags": {
+        "name": "Viladomat Sport",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3928793749,
+      "lat": 42.5661311,
+      "lon": 1.598642,
+      "tags": {
+        "addr:city": "Canillo",
+        "brand": "Caprabo",
+        "brand:wikidata": "Q1980781",
+        "brand:wikipedia": "en:Caprabo",
+        "name": "Caprabo",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3928793763,
+      "lat": 42.5677347,
+      "lon": 1.6017468,
+      "tags": {
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3928793764,
+      "lat": 42.56785,
+      "lon": 1.6019563,
+      "tags": {
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3928793765,
+      "lat": 42.5679606,
+      "lon": 1.6021446,
+      "tags": {
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3943652311,
+      "lat": 42.5081184,
+      "lon": 1.5326694,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "name": "Andorra telecom",
+        "operator": "Andorra telecom",
+        "shop": "mobile_phone",
+        "website": "https://www.andorratelecom.ad/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4149383503,
+      "lat": 42.5424832,
+      "lon": 1.5999844,
+      "tags": {
+        "addr:street": "Andora LA valla",
+        "name": "Avenida Doctor Mitjavila, 3-",
+        "shop": "supermarket",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4229657189,
+      "lat": 42.4662831,
+      "lon": 1.4914169,
+      "tags": {
+        "name": "Andorra Campers",
+        "phone": "+376 814440",
+        "shop": "car_parts",
+        "website": "http://www.andorracampers.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4236939789,
+      "lat": 42.5075802,
+      "lon": 1.5331683,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:postcode": "AD500",
+        "addr:street": "Carrer Maria Plà",
+        "name": "Esports altitud",
+        "shop": "outdoor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4240956910,
+      "lat": 42.4755398,
+      "lon": 1.4835513,
+      "tags": {
+        "name": "Andorra Campers - Taller",
+        "shop": "car_repair",
+        "website": "http://www.andorracampers.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4303818593,
+      "lat": 42.5072268,
+      "lon": 1.5198072,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:postcode": "500",
+        "addr:street": "Carrer de la Vall",
+        "name": "la birreria Andorra",
+        "shop": "beverages"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4359859793,
+      "lat": 42.546397,
+      "lon": 1.5218296,
+      "tags": {
+        "name": "Andora",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4435925490,
+      "lat": 42.535027,
+      "lon": 1.572893,
+      "tags": {
+        "addr:street": "Carrer del Doro",
+        "name": "casa",
+        "shop": "bookmaker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4448354390,
+      "lat": 42.5069742,
+      "lon": 1.5343951,
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Carrer de la Unió",
+        "name": "Auto Muntatges KM0",
+        "name:es": "Auto Montages KM0",
+        "opening_hours": "Mo-Sa 09:30-20:00",
+        "phone": "+376818908",
+        "shop": "tyres",
+        "website": "https://www.automuntatgeskm0.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4448366289,
+      "lat": 42.506789,
+      "lon": 1.5339778,
+      "tags": {
+        "addr:street": "Carrer de la Unió",
+        "email": "autosistema@autosistema.es",
+        "name": "Auto sistema",
+        "name:es": "Auto sistema",
+        "opening_hours": "Mo-Sa 09:00-20:00; Su 09:30-13:30",
+        "phone": "+376826424",
+        "shop": "tyres",
+        "website": "http://www.autosistema.es"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4454992889,
+      "lat": 42.5069604,
+      "lon": 1.5292575,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Carrer de l'Aigüeta",
+        "email": "luarperruquers@hotmail.com",
+        "name": "Luar perruquers",
+        "name:es": "Luar peluqueros",
+        "opening_hours": "Tu-Sa 10:00-20:00",
+        "phone": "+376867448",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4456948192,
+      "lat": 42.5173281,
+      "lon": 1.5552836,
+      "tags": {
+        "name": "Mauco",
+        "name:ca": "Mauco",
+        "name:es": "Mauco",
+        "phone": "+376821557",
+        "shop": "hardware"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4462933491,
+      "lat": 42.5062944,
+      "lon": 1.5313675,
+      "tags": {
+        "addr:housenumber": "29",
+        "addr:street": "Carrer Maria Plà",
+        "email": "carlin@andorra.ad",
+        "internet_access": "wlan",
+        "name": "Carlin",
+        "opening_hours": "Mo-Fr 09:30-13:30, 15:00-20:00; Sa 09:30-13:30, 16:00-20:00",
+        "phone": "+376809050",
+        "shop": "copyshop",
+        "website": "http://www.carlinandorra.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4511962338,
+      "lat": 42.5062496,
+      "lon": 1.5293281,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:postcode": "AD500",
+        "name": "bonÀrea (Andorra)",
+        "operator": "Grup Alimentari Guissona",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4511989862,
+      "lat": 42.5059199,
+      "lon": 1.5289214,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "20",
+        "addr:postcode": "AD500",
+        "addr:street": "Carrer Roger Bernat III",
+        "name": "Ofijet",
+        "shop": "stationery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4560904757,
+      "lat": 42.5225175,
+      "lon": 1.5602139,
+      "tags": {
+        "addr:city": "Andorra",
+        "addr:street": "Avda. de la Barta",
+        "brand": "KTM, Beta, Arctic cat",
+        "description": "KTM, Beta, Arctic cat",
+        "name": "Multimoto",
+        "operator": "Multimoto S.A,",
+        "phone": "+376833112",
+        "shop": "motorcycle",
+        "website": "https://www.multimoto.ad"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4659493991,
+      "lat": 42.4663523,
+      "lon": 1.4915638,
+      "tags": {
+        "name": "Super Basar Bon Perú",
+        "name:ca": "Super Basar Bon Perú",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4677742607,
+      "lat": 42.497771,
+      "lon": 1.5033353,
+      "tags": {
+        "addr:housenumber": "22",
+        "addr:street": "Avinguda de Santa Coloma",
+        "name": "Pneumatics F1",
+        "phone": "+376723923",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4677742608,
+      "lat": 42.4978911,
+      "lon": 1.5035217,
+      "tags": {
+        "name": "Taller Call",
+        "name:ca": "Taller Call",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4677742609,
+      "lat": 42.4979778,
+      "lon": 1.5030838,
+      "tags": {
+        "addr:city": "Santa Coloma",
+        "addr:street": "Passatge de Cedre",
+        "internet_access": "wlan",
+        "name": "Garatge Auto David",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689658990,
+      "lat": 42.4976734,
+      "lon": 1.5030468,
+      "tags": {
+        "name": "Solarchek",
+        "name:ca": "Solarchek",
+        "shop": "car_parts"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4690328289,
+      "lat": 42.5418374,
+      "lon": 1.7327459,
+      "tags": {
+        "addr:street": "Carrer de Catalunya",
+        "name": "Quars",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4697178389,
+      "lat": 42.5074413,
+      "lon": 1.521643,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Carrer de la Vall",
+        "name": "Fleca Font",
+        "opening_hours": "Mo-Su 08:00-13:30, 16:00-20:00",
+        "phone": "+376829470",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4721265589,
+      "lat": 42.5088576,
+      "lon": 1.5308599,
+      "tags": {
+        "name": "Outlet Mango",
+        "name:ca": "Outlet Mango",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4780988324,
+      "lat": 42.5066845,
+      "lon": 1.5242217,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "brand": "Hyundai",
+        "brand:wikidata": "Q55931",
+        "brand:wikipedia": "en:Hyundai Motor Company",
+        "name": "Hyundai",
+        "name:ca": "Hyundai",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4874439753,
+      "lat": 42.4960731,
+      "lon": 1.4995659,
+      "tags": {
+        "addr:city": "Santa Coloma",
+        "name": "Express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4874439754,
+      "lat": 42.4998808,
+      "lon": 1.5069663,
+      "tags": {
+        "addr:city": "Santa Coloma",
+        "addr:housenumber": "118",
+        "addr:street": "Avinguda de Santa Coloma",
+        "name": "Intersport Outdoor",
+        "phone": "376800916",
+        "shop": "outdoor",
+        "website": "https://www.viladomat.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4874445163,
+      "lat": 42.5080043,
+      "lon": 1.5286333,
+      "tags": {
+        "name": "Jorma Trail & Bike",
+        "shop": "outdoor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4874445624,
+      "lat": 42.5043074,
+      "lon": 1.5150297,
+      "tags": {
+        "name": "Font del Marge Comerç",
+        "shop": "outdoor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4874445625,
+      "lat": 42.5050486,
+      "lon": 1.5147417,
+      "tags": {
+        "name": "Eco Supermacats",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4874445628,
+      "lat": 42.5074298,
+      "lon": 1.5310135,
+      "tags": {
+        "name": "Foot on Mars",
+        "shop": "shoes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4879107821,
+      "lat": 42.5072504,
+      "lon": 1.5314634,
+      "tags": {
+        "name": "Rapsodia Marrugat",
+        "name:ca": "Rapsodia Marrugat",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4890701725,
+      "lat": 42.4541172,
+      "lon": 1.4851842,
+      "tags": {
+        "name": "Pneumàtics Pirineu",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4890701726,
+      "lat": 42.5057141,
+      "lon": 1.5291971,
+      "tags": {
+        "name": "Andorra 2000",
+        "name:ca": "Andorra 2000",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4890702322,
+      "lat": 42.454618,
+      "lon": 1.485427,
+      "tags": {
+        "name": "Serralleria Puy",
+        "name:ca": "Serralleria Puy",
+        "phone": "+376842105",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4890702323,
+      "lat": 42.4563338,
+      "lon": 1.485283,
+      "tags": {
+        "name": "Traldis Porta",
+        "name:ca": "Traldis Porta",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4927139121,
+      "lat": 42.4625689,
+      "lon": 1.4903436,
+      "tags": {
+        "name": "Gala",
+        "name:ca": "Gala",
+        "shop": "cosmetics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4927139321,
+      "lat": 42.4626663,
+      "lon": 1.4903223,
+      "tags": {
+        "name": "Jorma",
+        "name:ca": "Jorma",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4927139324,
+      "lat": 42.4583751,
+      "lon": 1.4864685,
+      "tags": {
+        "name": "Yamaha",
+        "name:ca": "Yamaha",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4928317125,
+      "lat": 42.5086884,
+      "lon": 1.5398466,
+      "tags": {
+        "name": "Òptica Sorteny",
+        "name:ca": "Òptica Sorteny",
+        "shop": "optician"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4928317127,
+      "lat": 42.5086939,
+      "lon": 1.5401689,
+      "tags": {
+        "name": "Calçats Jamaica",
+        "name:ca": "Calçats Jamaica",
+        "shop": "shoes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4929818922,
+      "lat": 42.5065147,
+      "lon": 1.5285531,
+      "tags": {
+        "name": "La Sirena",
+        "name:ca": "La Sirena",
+        "shop": "seafood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4935648723,
+      "lat": 42.508655,
+      "lon": 1.5362592,
+      "tags": {
+        "name": "Quars",
+        "name:ca": "Quars",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4935648724,
+      "lat": 42.5085586,
+      "lon": 1.5362899,
+      "tags": {
+        "brand": "Tous",
+        "brand:wikidata": "Q3815128",
+        "brand:wikipedia": "en:Tous (company)",
+        "name": "Tous",
+        "name:ca": "Tous",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4955463123,
+      "lat": 42.5059506,
+      "lon": 1.5305705,
+      "tags": {
+        "name": "Jamaica",
+        "name:ca": "Jamaica",
+        "shop": "shoes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4955463124,
+      "lat": 42.50581,
+      "lon": 1.5299353,
+      "tags": {
+        "addr:housenumber": "22",
+        "addr:street": "Avinguda de Tarragona",
+        "name": "if Perfumeries",
+        "shop": "cosmetics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4955500423,
+      "lat": 42.5055958,
+      "lon": 1.5290607,
+      "tags": {
+        "addr:housenumber": "34",
+        "addr:street": "Avinguda de Tarragona",
+        "name": "Basar d'Orient",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4955512721,
+      "lat": 42.5058713,
+      "lon": 1.5302334,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Avinguda de Tarragona",
+        "name": "Electrodomèstics Andorra 2000",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4955512724,
+      "lat": 42.5056499,
+      "lon": 1.5287103,
+      "tags": {
+        "addr:street": "Carrer Bonaventura Riberaygua",
+        "name": "centmobel",
+        "shop": "furniture"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4984739288,
+      "lat": 42.536172,
+      "lon": 1.5823225,
+      "tags": {
+        "addr:street": "Avinguda de François Mitterrand",
+        "name": "Ferreteria Principat",
+        "shop": "hardware"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4984739292,
+      "lat": 42.5360646,
+      "lon": 1.5821578,
+      "tags": {
+        "addr:street": "Avinguda François Mitterrand",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5077554221,
+      "lat": 42.503617,
+      "lon": 1.5124438,
+      "tags": {
+        "name": "Novavista",
+        "opening_hours": "Mo-Th 09:00-13:00, 15:00-20:00; Fr 09:00-13:00, 15:00-19:00",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5142817421,
+      "lat": 42.5071797,
+      "lon": 1.531715,
+      "tags": {
+        "name": "Albert Jove",
+        "shop": "shoes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5142817422,
+      "lat": 42.5072157,
+      "lon": 1.5318367,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Carrer Verge del Pilar",
+        "name": "Teixidó",
+        "opening_hours": "Mo-Fr 09:00-13:00, 15:00-20:00",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5262454686,
+      "lat": 42.5724689,
+      "lon": 1.4839044,
+      "tags": {
+        "addr:city": "Arinsal",
+        "addr:postcode": "AD400",
+        "addr:street": "Carretera d'Arinsal",
+        "name": "Pic Negre 2",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5288596525,
+      "lat": 42.5434038,
+      "lon": 1.5169972,
+      "tags": {
+        "addr:street": "Avinguda Sant Antoni",
+        "name": "BonArea",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5290561221,
+      "lat": 42.508819,
+      "lon": 1.5362488,
+      "tags": {
+        "addr:city": "Escaldes-Engordany",
+        "addr:street": "Avinguda Carlemany",
+        "brand": "Pull & Bear",
+        "brand:wikidata": "Q691029",
+        "brand:wikipedia": "en:Pull&Bear",
+        "name": "Pull & Bear",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325449419,
+      "lat": 42.5425394,
+      "lon": 1.7331077,
+      "tags": {
+        "name": "Gala",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325449420,
+      "lat": 42.5424683,
+      "lon": 1.7328958,
+      "tags": {
+        "name": "CENTRAL III",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452664,
+      "lat": 42.542492,
+      "lon": 1.7336415,
+      "tags": {
+        "name": "Gala",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452666,
+      "lat": 42.5426379,
+      "lon": 1.733613,
+      "tags": {
+        "name": "Júlia",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452668,
+      "lat": 42.5426481,
+      "lon": 1.7338668,
+      "tags": {
+        "name": "Daytona 2000",
+        "shop": "motorcycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452670,
+      "lat": 42.5425078,
+      "lon": 1.7343174,
+      "tags": {
+        "name": "Gala",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452684,
+      "lat": 42.5422094,
+      "lon": 1.7330085,
+      "tags": {
+        "name": "if",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452686,
+      "lat": 42.5430751,
+      "lon": 1.7335169,
+      "tags": {
+        "name": "Gala",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452691,
+      "lat": 42.5430107,
+      "lon": 1.733519,
+      "tags": {
+        "name": "PETIT PREU",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452692,
+      "lat": 42.5421047,
+      "lon": 1.7335905,
+      "tags": {
+        "name": "Gala",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452693,
+      "lat": 42.5421945,
+      "lon": 1.7340599,
+      "tags": {
+        "name": "Gala",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452694,
+      "lat": 42.5421313,
+      "lon": 1.7340263,
+      "tags": {
+        "name": "Quars",
+        "shop": "watches"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452697,
+      "lat": 42.5422248,
+      "lon": 1.7341363,
+      "tags": {
+        "brand": "Calzedonia",
+        "brand:wikidata": "Q1027874",
+        "brand:wikipedia": "en:Calzedonia",
+        "name": "Calzedonia",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452698,
+      "lat": 42.542411,
+      "lon": 1.7339526,
+      "tags": {
+        "name": "Clement",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452699,
+      "lat": 42.5423092,
+      "lon": 1.7343523,
+      "tags": {
+        "name": "Júlia",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452700,
+      "lat": 42.542405,
+      "lon": 1.7345185,
+      "tags": {
+        "brand": "Caprabo",
+        "brand:wikidata": "Q1980781",
+        "brand:wikipedia": "ca:Caprabo",
+        "name": "Caprabo",
+        "opening_hours": "Mo-Fr 08:30-20:30; Su 08:30-14:00; Su 16:30-20:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452701,
+      "lat": 42.5424861,
+      "lon": 1.7340921,
+      "tags": {
+        "name": "R. Palacios",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452702,
+      "lat": 42.5424644,
+      "lon": 1.7341547,
+      "tags": {
+        "name": "Ray-Ban",
+        "shop": "optician"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452708,
+      "lat": 42.5424386,
+      "lon": 1.7346848,
+      "tags": {
+        "name": "RECORD III",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452821,
+      "lat": 42.5428161,
+      "lon": 1.7340438,
+      "tags": {
+        "name": "Júlia",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452822,
+      "lat": 42.5427864,
+      "lon": 1.7345829,
+      "tags": {
+        "name": "The Body Shop",
+        "shop": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452834,
+      "lat": 42.5430216,
+      "lon": 1.7348163,
+      "tags": {
+        "name": "thecigarshop",
+        "shop": "tobacco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452835,
+      "lat": 42.5431125,
+      "lon": 1.7348941,
+      "tags": {
+        "name": "Júlia",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452842,
+      "lat": 42.5429011,
+      "lon": 1.7350872,
+      "tags": {
+        "name": "Comerç Joan",
+        "shop": "water_sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452843,
+      "lat": 42.5429939,
+      "lon": 1.7352749,
+      "tags": {
+        "name": "it",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5325452852,
+      "lat": 42.5432054,
+      "lon": 1.7351381,
+      "tags": {
+        "name": "Gala",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5331440221,
+      "lat": 42.5660867,
+      "lon": 1.6012276,
+      "tags": {
+        "name:en": "Pic Negre",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5416198221,
+      "lat": 42.5090416,
+      "lon": 1.539725,
+      "tags": {
+        "name:en": "La Casa del Habano",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5416198222,
+      "lat": 42.5085466,
+      "lon": 1.5282509,
+      "tags": {
+        "name:en": "Olimpia Esports",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5416198321,
+      "lat": 42.5081373,
+      "lon": 1.5258534,
+      "tags": {
+        "name:en": "The Cidar Shop",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5416198322,
+      "lat": 42.5086387,
+      "lon": 1.5404164,
+      "tags": {
+        "name:en": "Davidoff Andorra",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5434969232,
+      "lat": 42.5409039,
+      "lon": 1.7318159,
+      "tags": {
+        "name": "Surf Evasio Skiset",
+        "shop": "ski"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5447274922,
+      "lat": 42.5090168,
+      "lon": 1.5429253,
+      "tags": {
+        "name": "Calçats PAVI",
+        "shop": "shoes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5448275621,
+      "lat": 42.5089853,
+      "lon": 1.5429341,
+      "tags": {
+        "clothes": "underwear",
+        "name": "Llenceria Fanny",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5704071922,
+      "lat": 42.5088027,
+      "lon": 1.5306188,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "8",
+        "addr:postcode": "AD500",
+        "addr:street": "Carrer Pau Casals",
+        "addr:unit": "2n 1ra",
+        "internet_access": "wlan",
+        "name": "Perruqueria Nova Style",
+        "name:es": "Peluquería Nova Style",
+        "name:fr": "Coiffeur Nova Style",
+        "opening_hours": "Tu-Sa 10:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "812081",
+        "shop": "hairdresser",
+        "website": "https://www.facebook.com/novastyleand/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5723981964,
+      "lat": 42.5084811,
+      "lon": 1.5347409,
+      "tags": {
+        "name": "Júlia",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5734220254,
+      "lat": 42.5068998,
+      "lon": 1.5209712,
+      "tags": {
+        "name": "Llibreria la Puça",
+        "name:es": "Librería La Pulga",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5734236536,
+      "lat": 42.5081392,
+      "lon": 1.5303987,
+      "tags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5755653021,
+      "lat": 42.5085165,
+      "lon": 1.5328962,
+      "tags": {
+        "addr:housenumber": "99",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Soho",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5755683021,
+      "lat": 42.5081016,
+      "lon": 1.5316987,
+      "tags": {
+        "addr:housenumber": "100",
+        "addr:street": "Avinguda Meritxell",
+        "brand": "Massimo Dutti",
+        "brand:wikidata": "Q788231",
+        "brand:wikipedia": "en:Massimo Dutti",
+        "name": "Massimo Dutti",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5755683121,
+      "lat": 42.5084358,
+      "lon": 1.5315892,
+      "tags": {
+        "addr:housenumber": "87",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Options+",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5755683122,
+      "lat": 42.5080914,
+      "lon": 1.5249052,
+      "tags": {
+        "addr:housenumber": "23-25",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Urban",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5755683221,
+      "lat": 42.5084008,
+      "lon": 1.531141,
+      "tags": {
+        "addr:housenumber": "85",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Options",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5755683321,
+      "lat": 42.5077032,
+      "lon": 1.5244925,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Jeans Culte",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5755710121,
+      "lat": 42.5086411,
+      "lon": 1.5371637,
+      "tags": {
+        "addr:housenumber": "91",
+        "addr:street": "Avinguda Carlemany",
+        "name": "Buick",
+        "name:ca": "Buick - Via Moda",
+        "name:en": "Buick - Via Moda",
+        "name:fr": "Buick - Via Moda",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5755722721,
+      "lat": 42.5079391,
+      "lon": 1.5244123,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Avinguda Meritxell",
+        "name": "Fnac Andorra",
+        "shop": "computer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5758910229,
+      "lat": 42.5088736,
+      "lon": 1.5351787,
+      "tags": {
+        "brand": "Hugo Boss",
+        "brand:wikidata": "Q491627",
+        "brand:wikipedia": "en:Hugo Boss",
+        "name": "Hugo Boss",
+        "shop": "clothes",
+        "short_name": "Boss"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5758910230,
+      "lat": 42.5090394,
+      "lon": 1.5346886,
+      "tags": {
+        "brand": "Swarovski",
+        "brand:wikidata": "Q611115",
+        "brand:wikipedia": "en:Swarovski",
+        "name": "Swarovski",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5758936728,
+      "lat": 42.5089288,
+      "lon": 1.5342584,
+      "tags": {
+        "brand": "Levi's",
+        "brand:wikidata": "Q127962",
+        "brand:wikipedia": "en:Levi Strauss & Co.",
+        "clothes": "denim;men;women",
+        "name": "Levi's",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5758970521,
+      "lat": 42.5090402,
+      "lon": 1.5344736,
+      "tags": {
+        "brand": "Geox",
+        "brand:wikidata": "Q588001",
+        "brand:wikipedia": "en:Geox",
+        "name": "Geox",
+        "shop": "shoes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5773161056,
+      "lat": 42.546274,
+      "lon": 1.5140812,
+      "tags": {
+        "name": "Forner@",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5781737258,
+      "lat": 42.5081248,
+      "lon": 1.5339454,
+      "tags": {
+        "name": "Santa Glòria",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5781737354,
+      "lat": 42.5092745,
+      "lon": 1.538085,
+      "tags": {
+        "name": "Fleca font",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5803852929,
+      "lat": 42.5089326,
+      "lon": 1.5344689,
+      "tags": {
+        "brand": "Apple Store",
+        "brand:wikidata": "Q421253",
+        "brand:wikipedia": "en:Apple Store",
+        "name": "Apple Store",
+        "shop": "electronics",
+        "short_name": "Apple"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5803912388,
+      "lat": 42.5084828,
+      "lon": 1.5352728,
+      "tags": {
+        "name": "Gala",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5845961487,
+      "lat": 42.5018323,
+      "lon": 1.5154038,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5899806609,
+      "lat": 42.5088743,
+      "lon": 1.532163,
+      "tags": {
+        "name": "E. Leclerc",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5903943089,
+      "lat": 42.5084273,
+      "lon": 1.5344722,
+      "tags": {
+        "name": "Denver",
+        "shop": "computer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5906799605,
+      "lat": 42.5416271,
+      "lon": 1.7326276,
+      "tags": {
+        "name": "Favorit",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5960943098,
+      "lat": 42.5434844,
+      "lon": 1.7319737,
+      "tags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6306288007,
+      "lat": 42.5376928,
+      "lon": 1.5865377,
+      "tags": {
+        "name": "Comerç les Bons",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6313823448,
+      "lat": 42.5348648,
+      "lon": 1.5878946,
+      "tags": {
+        "name": "Pic Negro",
+        "shop": "sports",
+        "sport": "skiing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6313832689,
+      "lat": 42.5351728,
+      "lon": 1.5877876,
+      "tags": {
+        "name": "Esports Everest",
+        "shop": "ski"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6370832757,
+      "lat": 42.491834,
+      "lon": 1.4961017,
+      "tags": {
+        "addr:city": "Santa Coloma",
+        "addr:housenumber": "120",
+        "addr:street": "Avenida d’Enclar",
+        "email": "info@motosprint.com",
+        "motorcycle:clothes": "yes",
+        "name": "Motosprint",
+        "opening_hours": "Mo-Fr 10:00-14:00,16:00-20:00; Sa,Su,PH off",
+        "phone": "+34 93 171 84 26",
+        "shop": "motorcycle",
+        "website": "https://motosprint.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6389095186,
+      "lat": 42.5117723,
+      "lon": 1.5499755,
+      "tags": {
+        "name": "SEAT",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6464086291,
+      "lat": 42.5085491,
+      "lon": 1.5343564,
+      "tags": {
+        "name": "Cava benito",
+        "shop": "wine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6464182885,
+      "lat": 42.5083864,
+      "lon": 1.5316811,
+      "tags": {
+        "brand": "Zara",
+        "brand:wikidata": "Q147662",
+        "brand:wikipedia": "en:Zara (retailer)",
+        "name": "Zara",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6464182985,
+      "lat": 42.5082075,
+      "lon": 1.5318789,
+      "tags": {
+        "name": "Parfumerie Julia",
+        "name:ca": "Julia perfumeria",
+        "name:fr": "Parfumerie Julia",
+        "shop": "beauty"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6534096331,
+      "lat": 42.5082224,
+      "lon": 1.520737,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "15",
+        "addr:postcode": "AD500",
+        "addr:street": "Carrer de l'Alzinaret",
+        "bulk_purchase": "yes",
+        "email": "consciencia.andorra@gmail.com",
+        "name": "Consciència",
+        "organic": "yes",
+        "shop": "convenience",
+        "website": "https://www.conscienciaorganic.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6534129406,
+      "lat": 42.5080056,
+      "lon": 1.5376852,
+      "tags": {
+        "addr:city": "Escaldes-Engordany",
+        "addr:housenumber": "9",
+        "addr:postcode": "AD700",
+        "addr:street": "Avinguda del Fener",
+        "bulk_purchase": "yes",
+        "name": "Biocoop Andorra",
+        "operator": "BioCoop",
+        "shop": "convenience",
+        "website": "https://www.biocoopandorra.ad"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6534144493,
+      "lat": 42.5071708,
+      "lon": 1.5294413,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "8",
+        "addr:postcode": "AD500",
+        "addr:street": "Carrer de la Sardana",
+        "bulk_purchase": "yes",
+        "name": "de bon Gra",
+        "opening_hours": "Mo-Sa 10:00-14:00,16:00-20:00",
+        "phone": "+376 816868",
+        "shop": "convenience",
+        "website": "https://debongra.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6564773287,
+      "lat": 42.5360115,
+      "lon": 1.5820846,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Avinguda de François Mitterrand",
+        "name": "ECO",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6570415785,
+      "lat": 42.5066868,
+      "lon": 1.5234295,
+      "tags": {
+        "name": "Caprabo",
+        "name:en": "Caprabo Fresh",
+        "opening_hours": "Mo-Sa 09:30-21:00; Su 09:00-20:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6905327385,
+      "lat": 42.5662011,
+      "lon": 1.5987579,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:postcode": "100",
+        "addr:street": "Av. Sant Joan de Caselles",
+        "internet_access": "wlan",
+        "name": "Les delícies del Jimmy",
+        "phone": "+376 852 145",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7282348448,
+      "lat": 42.5415366,
+      "lon": 1.7339046,
+      "tags": {
+        "name": "Jhal",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7282356154,
+      "lat": 42.5419372,
+      "lon": 1.7339806,
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7282431504,
+      "lat": 42.5422174,
+      "lon": 1.7331863,
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7282465469,
+      "lat": 42.5421984,
+      "lon": 1.7324737,
+      "tags": {
+        "name": "Fran per",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7282470378,
+      "lat": 42.5422262,
+      "lon": 1.7326016,
+      "tags": {
+        "name": "Hiper pas",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7282474332,
+      "lat": 42.54209,
+      "lon": 1.7325282,
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7282474834,
+      "lat": 42.5423243,
+      "lon": 1.7321299,
+      "tags": {
+        "name": "Hiper pas",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7285616685,
+      "lat": 42.5483125,
+      "lon": 1.5133131,
+      "tags": {
+        "name": "Esports Bauseli",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7296461652,
+      "lat": 42.509005,
+      "lon": 1.5435878,
+      "tags": {
+        "addr:city": "Escaldes-Engordany",
+        "addr:housenumber": "17",
+        "addr:street": "Avinguda Carlemany",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7296527984,
+      "lat": 42.5099971,
+      "lon": 1.5407457,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Avinguda de les Escoles",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7296539985,
+      "lat": 42.5091958,
+      "lon": 1.5408665,
+      "tags": {
+        "name": "13-th street",
+        "opening_hours": "Mo-Fr 08:30-21:00; Sa 09:00-21:00; Su 09:30-19:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7296606485,
+      "lat": 42.5101302,
+      "lon": 1.5409723,
+      "tags": {
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7296606486,
+      "lat": 42.5100507,
+      "lon": 1.5409297,
+      "tags": {
+        "name": "Vilalta",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7296606488,
+      "lat": 42.5095573,
+      "lon": 1.5408778,
+      "tags": {
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7296670777,
+      "lat": 42.5417783,
+      "lon": 1.7325436,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7344615485,
+      "lat": 42.5120751,
+      "lon": 1.534671,
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Carrer dels Escalls",
+        "email": "pfa@andorra.ad",
+        "name": "Pompes Fúnebres Andorranes",
+        "opening_hours": "24/7",
+        "phone": "00376 822466",
+        "shop": "funeral_directors",
+        "website": "http://www.pompesfunebresand.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7796354523,
+      "lat": 42.5617685,
+      "lon": 1.4957929,
+      "tags": {
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7810007285,
+      "lat": 42.4783693,
+      "lon": 1.5229968,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7810015585,
+      "lat": 42.4902638,
+      "lon": 1.5334425,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7899929098,
+      "lat": 42.5073205,
+      "lon": 1.5214293,
+      "tags": {
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8114224817,
+      "lat": 42.5082986,
+      "lon": 1.5420165,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Carrer de l'obac",
+        "name": "Barbería Corleone",
+        "opening_hours": "Mo-Fr 10:00-19:00",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8410235617,
+      "lat": 42.5839479,
+      "lon": 1.6644579,
+      "tags": {
+        "addr:housenumber": "81",
+        "addr:street": "Carretera de la Vall d'Incles",
+        "name": "Taller la vall",
+        "phone": "827177",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8432463453,
+      "lat": 42.5796315,
+      "lon": 1.6413025,
+      "tags": {
+        "name": "Comerc Espunyes",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8432463454,
+      "lat": 42.5796284,
+      "lon": 1.6425105,
+      "tags": {
+        "shop": "perfumery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8644092641,
+      "lat": 42.5072083,
+      "lon": 1.5329022,
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "1",
+        "addr:postcode": "AD500",
+        "addr:street": "Carrer Maria Plà",
+        "addr:unit": "Botigues Fener",
+        "name": "MAXTAR SOLUTIONS",
+        "opening_hours": "Mo-Sa 10:00-13:00,16:00-20:00",
+        "opening_hours:covid19": "same",
+        "payment:credit_cards": "yes",
+        "phone": "802 121",
+        "shop": "radiotechnics",
+        "website": "https://www.maxtarsolutions.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9042427850,
+      "lat": 42.5658493,
+      "lon": 1.5979435,
+      "tags": {
+        "name": "Petit Mercat de Canillo",
+        "opening_hours": "Mo-Sa 08:30-14:00, 16:45-20:00; Su 08:30-14:00",
+        "phone": "+376 744 888",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9215725526,
+      "lat": 42.5073156,
+      "lon": 1.5227792,
+      "tags": {
+        "name": "La Trenca",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9219880799,
+      "lat": 42.5459174,
+      "lon": 1.521178,
+      "tags": {
+        "shop": "ticket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9442792327,
+      "lat": 42.576547,
+      "lon": 1.668271,
+      "tags": {
+        "name": "Supermercat Pirineu",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 54858980,
+      "nodes": [
+        690708531,
+        690708629,
+        690708640,
+        690708588,
+        690708531
+      ],
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:street": "Carrer de Catalunya",
+        "building": "yes",
+        "building:levels": "6",
+        "name": "Olympia Centre",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 54858984,
+      "nodes": [
+        690708536,
+        690708518,
+        2797680775,
+        690708635,
+        2832678132,
+        5325452621,
+        690708536
+      ],
+      "tags": {
+        "addr:city": "Pas de la Casa",
+        "addr:postcode": "AD200",
+        "building": "yes",
+        "name": "Pyrénées Hyper-Centre",
+        "shop": "mall",
+        "website": "https://www.pyrenees.ad/",
+        "wikidata": "Q5596036",
+        "wikipedia": "ca:Pyrénées Andorra"
+      }
+    },
+    {
+      "type": "way",
+      "id": 176484662,
+      "nodes": [
+        1870027781,
+        1870027786,
+        1870027789,
+        1870027782,
+        1870027793,
+        1870027781
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "River",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183087884,
+      "nodes": [
+        1934454831,
+        1934454792,
+        1934454795,
+        1934454808,
+        1934454827,
+        1934454831
+      ],
+      "tags": {
+        "brand": "Monoprix",
+        "brand:wikidata": "Q3321241",
+        "brand:wikipedia": "en:Monoprix",
+        "name": "Monoprix",
+        "operator": "Groupe Casino",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 194525695,
+      "nodes": [
+        2050272733,
+        2050272760,
+        2050272731,
+        2050272753,
+        2050272733
+      ],
+      "tags": {
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 194554958,
+      "nodes": [
+        2050563556,
+        2878929692,
+        9729575334,
+        2878929691,
+        2050563575,
+        2050563529,
+        2878929685,
+        2050563547,
+        2878929684,
+        2050563582,
+        9729575331,
+        9730033643,
+        2878929689,
+        9729575332,
+        2878929690,
+        9729575355,
+        2878929695,
+        9729575336,
+        2050563550,
+        9729575335,
+        2878929696,
+        9729575356,
+        2878929694,
+        9729575333,
+        2878929693,
+        2050563556
+      ],
+      "tags": {
+        "addr:housenumber": "70",
+        "addr:street": "Avinguda Carlemany",
+        "alt_name": "illa Carlemany",
+        "building": "yes",
+        "building:levels": "4",
+        "internet_access": "wlan",
+        "name": "Centre Comercial Illa Carlemany",
+        "opening_hours": "Mo-Su 07:00-24:00",
+        "shop": "mall",
+        "website": "http://www.illa.ad"
+      }
+    },
+    {
+      "type": "way",
+      "id": 247992282,
+      "nodes": [
+        1871682252,
+        9696679171,
+        2548366604,
+        2548366602,
+        9696679719,
+        1871682274,
+        9696679146,
+        9696679147,
+        9696679148,
+        9696679149,
+        1871682276,
+        1871682252
+      ],
+      "tags": {
+        "building": "retail",
+        "name": "Centre Comercial Leclerc",
+        "operator": "E. Leclerc",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 293129734,
+      "nodes": [
+        2966947933,
+        2966947934,
+        2966947935,
+        2966947936,
+        2966947937,
+        2966947938,
+        2966947939,
+        2966947940,
+        2966947941,
+        2966947942,
+        2966947933
+      ],
+      "tags": {
+        "landuse": "commercial",
+        "shop": "garden_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 311481200,
+      "nodes": [
+        3171462813,
+        3171462814,
+        3171462812,
+        3171462811,
+        3171462813
+      ],
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Motocard",
+        "shop": "motorcycle"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319989340,
+      "nodes": [
+        3264959088,
+        3264959089,
+        3264959090,
+        3264959091,
+        3264959092,
+        9697277766,
+        3264959093,
+        3264959094,
+        3264959095,
+        9697277758,
+        3264959088
+      ],
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "50",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda de Tarragona",
+        "building": "yes",
+        "name": "AFM - Andorra Free Market",
+        "name:es": "AFM - Mercado Libre de Andorra",
+        "note": "electronics discount",
+        "opening_hours": "Mo-Fr 10:00-14:00,16:00-20:00",
+        "phone": "+376 - 845 986",
+        "shop": "electronics",
+        "smoking": "no",
+        "website": "https://www.andorrafreemarket.ad/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319997722,
+      "nodes": [
+        3265020153,
+        3265020154,
+        3265020155,
+        3265020156,
+        3265020157,
+        3265020158,
+        3265020159,
+        3265020153
+      ],
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "51",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda de Tarragona",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Clothing Shop",
+        "shop": "clothes",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320006841,
+      "nodes": [
+        3265124147,
+        9697277802,
+        9697277801,
+        9697277800,
+        9697277799,
+        9697277798,
+        3265124148,
+        3265124149,
+        3265124150,
+        3265124147
+      ],
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:postcode": "AD500",
+        "building": "commercial",
+        "name": "Paint Shop",
+        "shop": "interior_decoration"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320010746,
+      "nodes": [
+        3265162896,
+        3265162897,
+        3265162898,
+        3265162911,
+        3265162899,
+        3265162900,
+        3265162901,
+        3265162896
+      ],
+      "tags": {
+        "landuse": "commercial",
+        "name": "tires",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352338250,
+      "nodes": [
+        3581032727,
+        3581032705,
+        3581032717,
+        3581032735,
+        3581032703,
+        3581032755,
+        3581032711,
+        3581032700,
+        3581032707,
+        3581032719,
+        3581032743,
+        3581032693,
+        3581032694,
+        3581032698,
+        3581032701,
+        3581032723,
+        3581032732,
+        3581032727
+      ],
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "addr:housenumber": "11",
+        "addr:postcode": "AD500",
+        "addr:street": "Avinguda Meritxell",
+        "alt_name": "Grans Magatzems Pyrénées",
+        "building": "yes",
+        "name": "Centro Comercial Pyrénées Andorra",
+        "phone": "+376 880 000",
+        "shop": "mall",
+        "website": "https://www.pyrenees.ad/",
+        "wikidata": "Q5596036",
+        "wikipedia": "ca:Pyrénées Andorra"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365957881,
+      "nodes": [
+        3699561168,
+        3699561169,
+        3699561170,
+        3699561173,
+        3699561171,
+        3699561172,
+        3699561168
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Caves Manacor",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365957962,
+      "nodes": [
+        3699566817,
+        3699566818,
+        3699566819,
+        3699566820,
+        3699566817
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Perfumeria Andorra",
+        "shop": "candles"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365958022,
+      "nodes": [
+        3699565814,
+        3699565815,
+        3699565816,
+        3699565817,
+        3699565814
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 365958140,
+      "nodes": [
+        3699568566,
+        3699568567,
+        3699568568,
+        3699568569,
+        3699568566
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 391178816,
+      "nodes": [
+        2936091012,
+        3943655272,
+        3185526705,
+        3185526708,
+        9696638542,
+        9696638543,
+        9696638544,
+        9696679200,
+        3185526541,
+        9696679199,
+        9740491720,
+        3185526557,
+        2939299823,
+        2939299822,
+        2939299821,
+        2939299820,
+        2936091013,
+        2936091012
+      ],
+      "tags": {
+        "addr:city": "Andorra la Vella",
+        "building": "yes",
+        "name": "CCA - Centre Comercial Andorrà",
+        "shop": "mall",
+        "wikidata": "Q17615770",
+        "wikipedia": "ca:Centre Comercial Andorrà"
+      }
+    },
+    {
+      "type": "way",
+      "id": 391178825,
+      "nodes": [
+        3265074862,
+        3943652312,
+        9740917570,
+        9740917569,
+        9740917568,
+        9740917567,
+        3943652313,
+        9740917565,
+        3943652320,
+        3943652314,
+        3265074861,
+        3265074862
+      ],
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "Avinguda de Tarragona",
+        "building": "yes",
+        "building:levels": "5",
+        "name": "Andorra 2000",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 466972032,
+      "nodes": [
+        4616686617,
+        4616686614,
+        9704371290,
+        4616686615,
+        4616686616,
+        4616686617
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Tot Natura",
+        "shop": "garden_centre",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 547240784,
+      "nodes": [
+        5287555039,
+        5287555040,
+        5287555041,
+        5287555045,
+        5287555042,
+        5287555043,
+        5287555044,
+        5287555039
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Don Sofa",
+        "shop": "furniture"
+      }
+    },
+    {
+      "type": "way",
+      "id": 761782611,
+      "nodes": [
+        7117508149,
+        7117508150,
+        7117508151,
+        7117508152,
+        7117508149
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Supermercat de la posta",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 903296436,
+      "nodes": [
+        8389691493,
+        8389691498,
+        8389691497,
+        8389691496,
+        8389691495,
+        8389691494,
+        8389691500,
+        8389691501,
+        8389691502,
+        8389691503,
+        8389691504,
+        8389691505,
+        8389691506,
+        8389691499,
+        8389691493
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Motocard",
+        "shop": "motorcycle"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051803196,
+      "nodes": [
+        9665651152,
+        9665651153,
+        9665651154,
+        9665651155,
+        9665651156,
+        9665651157,
+        9665651158,
+        9665651159,
+        9665651160,
+        9665651161,
+        9665651162,
+        9665651163,
+        9665651152
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Compra Be",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1055321754,
+      "nodes": [
+        9697104116,
+        9697141817,
+        9697141818,
+        9697141819,
+        9697141820,
+        9697141821,
+        9697104116
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7980889,
+      "members": [
+        {
+          "type": "way",
+          "ref": 285926388,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "brand": "Lexus",
+        "building": "yes",
+        "name": "Lexus Andorre",
+        "shop": "car;car_repair",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1870027781,
+      "lat": 42.4549812,
+      "lon": 1.4862279
+    },
+    {
+      "type": "node",
+      "id": 1870027782,
+      "lat": 42.4538224,
+      "lon": 1.4864961
+    },
+    {
+      "type": "node",
+      "id": 1870027786,
+      "lat": 42.4546675,
+      "lon": 1.4866865
+    },
+    {
+      "type": "node",
+      "id": 1870027789,
+      "lat": 42.4539304,
+      "lon": 1.4868381
+    },
+    {
+      "type": "node",
+      "id": 1870027793,
+      "lat": 42.4544187,
+      "lon": 1.486175
+    },
+    {
+      "type": "node",
+      "id": 2050272731,
+      "lat": 42.4678117,
+      "lon": 1.4920537
+    },
+    {
+      "type": "node",
+      "id": 2050272733,
+      "lat": 42.4682909,
+      "lon": 1.4925201
+    },
+    {
+      "type": "node",
+      "id": 2050272753,
+      "lat": 42.4677201,
+      "lon": 1.4922624
+    },
+    {
+      "type": "node",
+      "id": 2050272760,
+      "lat": 42.4683811,
+      "lon": 1.492276
+    },
+    {
+      "type": "node",
+      "id": 5287555039,
+      "lat": 42.4738701,
+      "lon": 1.4914364
+    },
+    {
+      "type": "node",
+      "id": 5287555040,
+      "lat": 42.4738165,
+      "lon": 1.491378
+    },
+    {
+      "type": "node",
+      "id": 5287555041,
+      "lat": 42.4739304,
+      "lon": 1.4911859
+    },
+    {
+      "type": "node",
+      "id": 5287555042,
+      "lat": 42.4740059,
+      "lon": 1.4911067
+    },
+    {
+      "type": "node",
+      "id": 5287555043,
+      "lat": 42.4740454,
+      "lon": 1.4911518
+    },
+    {
+      "type": "node",
+      "id": 5287555044,
+      "lat": 42.473902,
+      "lon": 1.4913771
+    },
+    {
+      "type": "node",
+      "id": 5287555045,
+      "lat": 42.4739515,
+      "lon": 1.4911942
+    },
+    {
+      "type": "node",
+      "id": 8389691493,
+      "lat": 42.4895589,
+      "lon": 1.4938322
+    },
+    {
+      "type": "node",
+      "id": 8389691494,
+      "lat": 42.4895239,
+      "lon": 1.4939231
+    },
+    {
+      "type": "node",
+      "id": 8389691495,
+      "lat": 42.4894212,
+      "lon": 1.4938524
+    },
+    {
+      "type": "node",
+      "id": 8389691496,
+      "lat": 42.489358,
+      "lon": 1.4940214
+    },
+    {
+      "type": "node",
+      "id": 8389691497,
+      "lat": 42.4892714,
+      "lon": 1.4939618
+    },
+    {
+      "type": "node",
+      "id": 8389691498,
+      "lat": 42.4893689,
+      "lon": 1.4937013
+    },
+    {
+      "type": "node",
+      "id": 8389691499,
+      "lat": 42.4895829,
+      "lon": 1.49377
+    },
+    {
+      "type": "node",
+      "id": 8389691500,
+      "lat": 42.4894587,
+      "lon": 1.4940926
+    },
+    {
+      "type": "node",
+      "id": 8389691502,
+      "lat": 42.4898078,
+      "lon": 1.4939276
+    },
+    {
+      "type": "node",
+      "id": 8389691503,
+      "lat": 42.4897093,
+      "lon": 1.4938579
+    },
+    {
+      "type": "node",
+      "id": 8389691504,
+      "lat": 42.4897391,
+      "lon": 1.4937806
+    },
+    {
+      "type": "node",
+      "id": 8389691505,
+      "lat": 42.4896882,
+      "lon": 1.4937446
+    },
+    {
+      "type": "node",
+      "id": 8389691506,
+      "lat": 42.4896579,
+      "lon": 1.4938231
+    },
+    {
+      "type": "node",
+      "id": 8389691501,
+      "lat": 42.489683,
+      "lon": 1.4942515
+    },
+    {
+      "type": "node",
+      "id": 4616686614,
+      "lat": 42.4995613,
+      "lon": 1.5131369
+    },
+    {
+      "type": "node",
+      "id": 4616686615,
+      "lat": 42.5000627,
+      "lon": 1.5134347
+    },
+    {
+      "type": "node",
+      "id": 4616686616,
+      "lat": 42.5000241,
+      "lon": 1.5135542
+    },
+    {
+      "type": "node",
+      "id": 4616686617,
+      "lat": 42.4995228,
+      "lon": 1.5132564
+    },
+    {
+      "type": "node",
+      "id": 9704371290,
+      "lat": 42.4997139,
+      "lon": 1.5132275
+    },
+    {
+      "type": "node",
+      "id": 3264959088,
+      "lat": 42.5054548,
+      "lon": 1.5261666
+    },
+    {
+      "type": "node",
+      "id": 3264959089,
+      "lat": 42.5052488,
+      "lon": 1.5262152
+    },
+    {
+      "type": "node",
+      "id": 3264959090,
+      "lat": 42.5053176,
+      "lon": 1.5267522
+    },
+    {
+      "type": "node",
+      "id": 3264959091,
+      "lat": 42.5053936,
+      "lon": 1.5267343
+    },
+    {
+      "type": "node",
+      "id": 3264959092,
+      "lat": 42.5054137,
+      "lon": 1.5268914
+    },
+    {
+      "type": "node",
+      "id": 3264959093,
+      "lat": 42.505475,
+      "lon": 1.5268769
+    },
+    {
+      "type": "node",
+      "id": 3264959094,
+      "lat": 42.5054558,
+      "lon": 1.5267276
+    },
+    {
+      "type": "node",
+      "id": 3264959095,
+      "lat": 42.5055246,
+      "lon": 1.5267113
+    },
+    {
+      "type": "node",
+      "id": 3265162896,
+      "lat": 42.5048293,
+      "lon": 1.5246394
+    },
+    {
+      "type": "node",
+      "id": 3265162897,
+      "lat": 42.5048159,
+      "lon": 1.5245282
+    },
+    {
+      "type": "node",
+      "id": 3265162898,
+      "lat": 42.5047091,
+      "lon": 1.5244289
+    },
+    {
+      "type": "node",
+      "id": 3265162899,
+      "lat": 42.5046498,
+      "lon": 1.5245416
+    },
+    {
+      "type": "node",
+      "id": 3265162900,
+      "lat": 42.5046933,
+      "lon": 1.5245926
+    },
+    {
+      "type": "node",
+      "id": 3265162901,
+      "lat": 42.5047114,
+      "lon": 1.5246629
+    },
+    {
+      "type": "node",
+      "id": 3265162911,
+      "lat": 42.5046824,
+      "lon": 1.5244797
+    },
+    {
+      "type": "node",
+      "id": 3581032693,
+      "lat": 42.5080644,
+      "lon": 1.5241745
+    },
+    {
+      "type": "node",
+      "id": 3581032694,
+      "lat": 42.508074,
+      "lon": 1.5240472
+    },
+    {
+      "type": "node",
+      "id": 3581032698,
+      "lat": 42.508191,
+      "lon": 1.5239143
+    },
+    {
+      "type": "node",
+      "id": 3581032700,
+      "lat": 42.5078706,
+      "lon": 1.5244025
+    },
+    {
+      "type": "node",
+      "id": 3581032701,
+      "lat": 42.5082203,
+      "lon": 1.5239158
+    },
+    {
+      "type": "node",
+      "id": 3581032703,
+      "lat": 42.5083133,
+      "lon": 1.5244228
+    },
+    {
+      "type": "node",
+      "id": 3581032705,
+      "lat": 42.5084895,
+      "lon": 1.5243596
+    },
+    {
+      "type": "node",
+      "id": 3581032707,
+      "lat": 42.507839,
+      "lon": 1.5244105
+    },
+    {
+      "type": "node",
+      "id": 3581032711,
+      "lat": 42.5079141,
+      "lon": 1.5245447
+    },
+    {
+      "type": "node",
+      "id": 3581032717,
+      "lat": 42.5084714,
+      "lon": 1.5243235
+    },
+    {
+      "type": "node",
+      "id": 3581032719,
+      "lat": 42.5078093,
+      "lon": 1.5242764
+    },
+    {
+      "type": "node",
+      "id": 3581032723,
+      "lat": 42.5084816,
+      "lon": 1.52363
+    },
+    {
+      "type": "node",
+      "id": 3581032727,
+      "lat": 42.5087581,
+      "lon": 1.5240419
+    },
+    {
+      "type": "node",
+      "id": 3581032732,
+      "lat": 42.5085288,
+      "lon": 1.5236342
+    },
+    {
+      "type": "node",
+      "id": 3581032735,
+      "lat": 42.508335,
+      "lon": 1.5244657
+    },
+    {
+      "type": "node",
+      "id": 3581032743,
+      "lat": 42.507817,
+      "lon": 1.524184
+    },
+    {
+      "type": "node",
+      "id": 3581032755,
+      "lat": 42.5079811,
+      "lon": 1.5245864
+    },
+    {
+      "type": "node",
+      "id": 9697277758,
+      "lat": 42.5055193,
+      "lon": 1.5266701
+    },
+    {
+      "type": "node",
+      "id": 9697277766,
+      "lat": 42.5054625,
+      "lon": 1.5268799
+    },
+    {
+      "type": "node",
+      "id": 1871682252,
+      "lat": 42.5088699,
+      "lon": 1.5322635
+    },
+    {
+      "type": "node",
+      "id": 1871682274,
+      "lat": 42.5091737,
+      "lon": 1.5317219
+    },
+    {
+      "type": "node",
+      "id": 1871682276,
+      "lat": 42.5093336,
+      "lon": 1.5321874
+    },
+    {
+      "type": "node",
+      "id": 2548366602,
+      "lat": 42.5083429,
+      "lon": 1.5318618
+    },
+    {
+      "type": "node",
+      "id": 2548366604,
+      "lat": 42.5083861,
+      "lon": 1.5323442
+    },
+    {
+      "type": "node",
+      "id": 2936091012,
+      "lat": 42.5077101,
+      "lon": 1.5297907
+    },
+    {
+      "type": "node",
+      "id": 2936091013,
+      "lat": 42.5079759,
+      "lon": 1.5301776
+    },
+    {
+      "type": "node",
+      "id": 2939299820,
+      "lat": 42.5081612,
+      "lon": 1.5300236
+    },
+    {
+      "type": "node",
+      "id": 2939299821,
+      "lat": 42.5081987,
+      "lon": 1.530205
+    },
+    {
+      "type": "node",
+      "id": 2939299822,
+      "lat": 42.508165,
+      "lon": 1.5303066
+    },
+    {
+      "type": "node",
+      "id": 2939299823,
+      "lat": 42.5082422,
+      "lon": 1.5303578
+    },
+    {
+      "type": "node",
+      "id": 3171462811,
+      "lat": 42.5059497,
+      "lon": 1.5327155
+    },
+    {
+      "type": "node",
+      "id": 3171462812,
+      "lat": 42.5060793,
+      "lon": 1.5333719
+    },
+    {
+      "type": "node",
+      "id": 3171462813,
+      "lat": 42.5060956,
+      "lon": 1.5326625
+    },
+    {
+      "type": "node",
+      "id": 3171462814,
+      "lat": 42.5062251,
+      "lon": 1.533319
+    },
+    {
+      "type": "node",
+      "id": 3185526541,
+      "lat": 42.5081852,
+      "lon": 1.5306412
+    },
+    {
+      "type": "node",
+      "id": 3185526557,
+      "lat": 42.5082166,
+      "lon": 1.5304545
+    },
+    {
+      "type": "node",
+      "id": 3185526705,
+      "lat": 42.507576,
+      "lon": 1.5307611
+    },
+    {
+      "type": "node",
+      "id": 3185526708,
+      "lat": 42.5076013,
+      "lon": 1.5311604
+    },
+    {
+      "type": "node",
+      "id": 3265020153,
+      "lat": 42.5051608,
+      "lon": 1.5277856
+    },
+    {
+      "type": "node",
+      "id": 3265020154,
+      "lat": 42.5051568,
+      "lon": 1.5276327
+    },
+    {
+      "type": "node",
+      "id": 3265020155,
+      "lat": 42.505145,
+      "lon": 1.5276086
+    },
+    {
+      "type": "node",
+      "id": 3265020156,
+      "lat": 42.5051272,
+      "lon": 1.5275952
+    },
+    {
+      "type": "node",
+      "id": 3265020157,
+      "lat": 42.5051094,
+      "lon": 1.5276005
+    },
+    {
+      "type": "node",
+      "id": 3265020158,
+      "lat": 42.5048859,
+      "lon": 1.5276515
+    },
+    {
+      "type": "node",
+      "id": 3265020159,
+      "lat": 42.5049078,
+      "lon": 1.5278573
+    },
+    {
+      "type": "node",
+      "id": 3265074861,
+      "lat": 42.5057407,
+      "lon": 1.5288037
+    },
+    {
+      "type": "node",
+      "id": 3265074862,
+      "lat": 42.5055199,
+      "lon": 1.5289009
+    },
+    {
+      "type": "node",
+      "id": 3265124147,
+      "lat": 42.5062582,
+      "lon": 1.5283799
+    },
+    {
+      "type": "node",
+      "id": 3265124148,
+      "lat": 42.5059888,
+      "lon": 1.528499
+    },
+    {
+      "type": "node",
+      "id": 3265124149,
+      "lat": 42.5061191,
+      "lon": 1.5287657
+    },
+    {
+      "type": "node",
+      "id": 3265124150,
+      "lat": 42.506345,
+      "lon": 1.528556
+    },
+    {
+      "type": "node",
+      "id": 3943652312,
+      "lat": 42.5055923,
+      "lon": 1.5292729
+    },
+    {
+      "type": "node",
+      "id": 3943652313,
+      "lat": 42.5058221,
+      "lon": 1.5295676
+    },
+    {
+      "type": "node",
+      "id": 3943652314,
+      "lat": 42.5058427,
+      "lon": 1.5291345
+    },
+    {
+      "type": "node",
+      "id": 3943652320,
+      "lat": 42.5059881,
+      "lon": 1.5293431
+    },
+    {
+      "type": "node",
+      "id": 3943655272,
+      "lat": 42.5075189,
+      "lon": 1.5299475
+    },
+    {
+      "type": "node",
+      "id": 9696638542,
+      "lat": 42.5079168,
+      "lon": 1.5309783
+    },
+    {
+      "type": "node",
+      "id": 9696638543,
+      "lat": 42.5079271,
+      "lon": 1.5310152
+    },
+    {
+      "type": "node",
+      "id": 9696638544,
+      "lat": 42.5081689,
+      "lon": 1.5308746
+    },
+    {
+      "type": "node",
+      "id": 9696679146,
+      "lat": 42.5091866,
+      "lon": 1.5318695
+    },
+    {
+      "type": "node",
+      "id": 9696679147,
+      "lat": 42.5092419,
+      "lon": 1.5318625
+    },
+    {
+      "type": "node",
+      "id": 9696679148,
+      "lat": 42.5093071,
+      "lon": 1.5320747
+    },
+    {
+      "type": "node",
+      "id": 9696679149,
+      "lat": 42.5093242,
+      "lon": 1.5320724
+    },
+    {
+      "type": "node",
+      "id": 9696679171,
+      "lat": 42.5085931,
+      "lon": 1.5323097
+    },
+    {
+      "type": "node",
+      "id": 9696679199,
+      "lat": 42.5081941,
+      "lon": 1.5305638
+    },
+    {
+      "type": "node",
+      "id": 9696679200,
+      "lat": 42.5081746,
+      "lon": 1.5307412
+    },
+    {
+      "type": "node",
+      "id": 9696679719,
+      "lat": 42.5086643,
+      "lon": 1.5318077
+    },
+    {
+      "type": "node",
+      "id": 9697104116,
+      "lat": 42.5077828,
+      "lon": 1.5283273
+    },
+    {
+      "type": "node",
+      "id": 9697141817,
+      "lat": 42.5077582,
+      "lon": 1.5283945
+    },
+    {
+      "type": "node",
+      "id": 9697141818,
+      "lat": 42.5076198,
+      "lon": 1.528301
+    },
+    {
+      "type": "node",
+      "id": 9697141819,
+      "lat": 42.5076525,
+      "lon": 1.5282121
+    },
+    {
+      "type": "node",
+      "id": 9697141820,
+      "lat": 42.5076777,
+      "lon": 1.5282291
+    },
+    {
+      "type": "node",
+      "id": 9697141821,
+      "lat": 42.5076697,
+      "lon": 1.5282509
+    },
+    {
+      "type": "node",
+      "id": 9697277798,
+      "lat": 42.5060335,
+      "lon": 1.5284627
+    },
+    {
+      "type": "node",
+      "id": 9697277799,
+      "lat": 42.5060135,
+      "lon": 1.5284171
+    },
+    {
+      "type": "node",
+      "id": 9697277800,
+      "lat": 42.5060774,
+      "lon": 1.5283625
+    },
+    {
+      "type": "node",
+      "id": 9697277801,
+      "lat": 42.5060423,
+      "lon": 1.5282753
+    },
+    {
+      "type": "node",
+      "id": 9697277802,
+      "lat": 42.5060714,
+      "lon": 1.5282362
+    },
+    {
+      "type": "node",
+      "id": 9740491720,
+      "lat": 42.5082041,
+      "lon": 1.5305163
+    },
+    {
+      "type": "node",
+      "id": 9740917565,
+      "lat": 42.5059799,
+      "lon": 1.5293542
+    },
+    {
+      "type": "node",
+      "id": 9740917567,
+      "lat": 42.5056688,
+      "lon": 1.5293727
+    },
+    {
+      "type": "node",
+      "id": 9740917568,
+      "lat": 42.5056517,
+      "lon": 1.5293936
+    },
+    {
+      "type": "node",
+      "id": 9740917569,
+      "lat": 42.5056726,
+      "lon": 1.5295036
+    },
+    {
+      "type": "node",
+      "id": 9740917570,
+      "lat": 42.5056438,
+      "lon": 1.5295414
+    },
+    {
+      "type": "node",
+      "id": 2050563529,
+      "lat": 42.5086711,
+      "lon": 1.5342818
+    },
+    {
+      "type": "node",
+      "id": 2050563547,
+      "lat": 42.5085671,
+      "lon": 1.5344886
+    },
+    {
+      "type": "node",
+      "id": 2050563550,
+      "lat": 42.5091503,
+      "lon": 1.5352615
+    },
+    {
+      "type": "node",
+      "id": 2050563556,
+      "lat": 42.5090821,
+      "lon": 1.5341527
+    },
+    {
+      "type": "node",
+      "id": 2050563575,
+      "lat": 42.5086903,
+      "lon": 1.5341627
+    },
+    {
+      "type": "node",
+      "id": 2050563582,
+      "lat": 42.5086337,
+      "lon": 1.5352997
+    },
+    {
+      "type": "node",
+      "id": 2878929684,
+      "lat": 42.5086229,
+      "lon": 1.5352626
+    },
+    {
+      "type": "node",
+      "id": 2878929685,
+      "lat": 42.5086175,
+      "lon": 1.5344285
+    },
+    {
+      "type": "node",
+      "id": 2878929689,
+      "lat": 42.508662,
+      "lon": 1.5353337
+    },
+    {
+      "type": "node",
+      "id": 2878929690,
+      "lat": 42.5086941,
+      "lon": 1.5353419
+    },
+    {
+      "type": "node",
+      "id": 2878929691,
+      "lat": 42.5090325,
+      "lon": 1.5341252
+    },
+    {
+      "type": "node",
+      "id": 2878929692,
+      "lat": 42.5090668,
+      "lon": 1.5341373
+    },
+    {
+      "type": "node",
+      "id": 2878929693,
+      "lat": 42.5090973,
+      "lon": 1.5341748
+    },
+    {
+      "type": "node",
+      "id": 2878929694,
+      "lat": 42.5091132,
+      "lon": 1.5342269
+    },
+    {
+      "type": "node",
+      "id": 2878929695,
+      "lat": 42.5091099,
+      "lon": 1.535288
+    },
+    {
+      "type": "node",
+      "id": 2878929696,
+      "lat": 42.5091672,
+      "lon": 1.5351833
+    },
+    {
+      "type": "node",
+      "id": 9729575331,
+      "lat": 42.508647,
+      "lon": 1.5353174
+    },
+    {
+      "type": "node",
+      "id": 9729575332,
+      "lat": 42.5086759,
+      "lon": 1.53534
+    },
+    {
+      "type": "node",
+      "id": 9729575333,
+      "lat": 42.5091088,
+      "lon": 1.5342048
+    },
+    {
+      "type": "node",
+      "id": 9729575334,
+      "lat": 42.5090496,
+      "lon": 1.5341283
+    },
+    {
+      "type": "node",
+      "id": 9729575335,
+      "lat": 42.5091621,
+      "lon": 1.5352287
+    },
+    {
+      "type": "node",
+      "id": 9729575336,
+      "lat": 42.5091304,
+      "lon": 1.535279
+    },
+    {
+      "type": "node",
+      "id": 9729575355,
+      "lat": 42.5087464,
+      "lon": 1.5353351
+    },
+    {
+      "type": "node",
+      "id": 9729575356,
+      "lat": 42.5091666,
+      "lon": 1.5351726
+    },
+    {
+      "type": "node",
+      "id": 9730033643,
+      "lat": 42.5086517,
+      "lon": 1.5353225
+    },
+    {
+      "type": "node",
+      "id": 2895661372,
+      "lat": 42.5131152,
+      "lon": 1.5372984
+    },
+    {
+      "type": "node",
+      "id": 2895661373,
+      "lat": 42.5129389,
+      "lon": 1.5371528
+    },
+    {
+      "type": "node",
+      "id": 2895661374,
+      "lat": 42.513029,
+      "lon": 1.5368752
+    },
+    {
+      "type": "node",
+      "id": 2895661375,
+      "lat": 42.5132187,
+      "lon": 1.5369742
+    },
+    {
+      "type": "node",
+      "id": 9739286078,
+      "lat": 42.5130239,
+      "lon": 1.5368912
+    },
+    {
+      "type": "node",
+      "id": 9739286079,
+      "lat": 42.5129952,
+      "lon": 1.5368771
+    },
+    {
+      "type": "node",
+      "id": 9739286080,
+      "lat": 42.513045,
+      "lon": 1.5372168
+    },
+    {
+      "type": "node",
+      "id": 9740873497,
+      "lat": 42.513207,
+      "lon": 1.5369681
+    },
+    {
+      "type": "node",
+      "id": 2966947933,
+      "lat": 42.5498277,
+      "lon": 1.5110535
+    },
+    {
+      "type": "node",
+      "id": 2966947934,
+      "lat": 42.5497368,
+      "lon": 1.510906
+    },
+    {
+      "type": "node",
+      "id": 2966947935,
+      "lat": 42.5499759,
+      "lon": 1.5106243
+    },
+    {
+      "type": "node",
+      "id": 2966947936,
+      "lat": 42.5500885,
+      "lon": 1.5104849
+    },
+    {
+      "type": "node",
+      "id": 2966947937,
+      "lat": 42.5502347,
+      "lon": 1.5104232
+    },
+    {
+      "type": "node",
+      "id": 2966947938,
+      "lat": 42.5504422,
+      "lon": 1.510273
+    },
+    {
+      "type": "node",
+      "id": 2966947939,
+      "lat": 42.5506508,
+      "lon": 1.5100891
+    },
+    {
+      "type": "node",
+      "id": 2966947940,
+      "lat": 42.5506916,
+      "lon": 1.5101884
+    },
+    {
+      "type": "node",
+      "id": 2966947941,
+      "lat": 42.5503857,
+      "lon": 1.5105401
+    },
+    {
+      "type": "node",
+      "id": 2966947942,
+      "lat": 42.5501734,
+      "lon": 1.5107534
+    },
+    {
+      "type": "node",
+      "id": 9665651152,
+      "lat": 42.546382,
+      "lon": 1.5218119
+    },
+    {
+      "type": "node",
+      "id": 9665651153,
+      "lat": 42.5462034,
+      "lon": 1.5218213
+    },
+    {
+      "type": "node",
+      "id": 9665651154,
+      "lat": 42.5462057,
+      "lon": 1.5219011
+    },
+    {
+      "type": "node",
+      "id": 9665651155,
+      "lat": 42.5461632,
+      "lon": 1.5219034
+    },
+    {
+      "type": "node",
+      "id": 9665651156,
+      "lat": 42.5461602,
+      "lon": 1.5217982
+    },
+    {
+      "type": "node",
+      "id": 9665651157,
+      "lat": 42.5461212,
+      "lon": 1.5218003
+    },
+    {
+      "type": "node",
+      "id": 9665651158,
+      "lat": 42.5461266,
+      "lon": 1.5219858
+    },
+    {
+      "type": "node",
+      "id": 9665651159,
+      "lat": 42.546162,
+      "lon": 1.5219839
+    },
+    {
+      "type": "node",
+      "id": 9665651160,
+      "lat": 42.5461656,
+      "lon": 1.5221111
+    },
+    {
+      "type": "node",
+      "id": 9665651161,
+      "lat": 42.5463344,
+      "lon": 1.5221022
+    },
+    {
+      "type": "node",
+      "id": 9665651162,
+      "lat": 42.5463316,
+      "lon": 1.5220061
+    },
+    {
+      "type": "node",
+      "id": 9665651163,
+      "lat": 42.5463875,
+      "lon": 1.5220031
+    },
+    {
+      "type": "node",
+      "id": 1934454792,
+      "lat": 42.5329708,
+      "lon": 1.5777156
+    },
+    {
+      "type": "node",
+      "id": 1934454795,
+      "lat": 42.5329313,
+      "lon": 1.5774447
+    },
+    {
+      "type": "node",
+      "id": 1934454808,
+      "lat": 42.5331052,
+      "lon": 1.5774071
+    },
+    {
+      "type": "node",
+      "id": 1934454827,
+      "lat": 42.5331428,
+      "lon": 1.5774769
+    },
+    {
+      "type": "node",
+      "id": 1934454831,
+      "lat": 42.5331566,
+      "lon": 1.5776593
+    },
+    {
+      "type": "node",
+      "id": 3699561168,
+      "lat": 42.5791256,
+      "lon": 1.6416858
+    },
+    {
+      "type": "node",
+      "id": 3699561169,
+      "lat": 42.5791285,
+      "lon": 1.64197
+    },
+    {
+      "type": "node",
+      "id": 3699561170,
+      "lat": 42.5790703,
+      "lon": 1.6420544
+    },
+    {
+      "type": "node",
+      "id": 3699561171,
+      "lat": 42.5793216,
+      "lon": 1.642319
+    },
+    {
+      "type": "node",
+      "id": 3699561172,
+      "lat": 42.5793208,
+      "lon": 1.6416821
+    },
+    {
+      "type": "node",
+      "id": 3699561173,
+      "lat": 42.5791725,
+      "lon": 1.6423119
+    },
+    {
+      "type": "node",
+      "id": 3699565814,
+      "lat": 42.5790603,
+      "lon": 1.6412997
+    },
+    {
+      "type": "node",
+      "id": 3699565815,
+      "lat": 42.5788251,
+      "lon": 1.6413088
+    },
+    {
+      "type": "node",
+      "id": 3699565816,
+      "lat": 42.5788312,
+      "lon": 1.6415981
+    },
+    {
+      "type": "node",
+      "id": 3699565817,
+      "lat": 42.5790663,
+      "lon": 1.6415889
+    },
+    {
+      "type": "node",
+      "id": 3699566817,
+      "lat": 42.5790551,
+      "lon": 1.6410098
+    },
+    {
+      "type": "node",
+      "id": 3699566818,
+      "lat": 42.5788162,
+      "lon": 1.6410184
+    },
+    {
+      "type": "node",
+      "id": 3699566819,
+      "lat": 42.5788207,
+      "lon": 1.6412485
+    },
+    {
+      "type": "node",
+      "id": 3699566820,
+      "lat": 42.5790596,
+      "lon": 1.6412399
+    },
+    {
+      "type": "node",
+      "id": 3699568566,
+      "lat": 42.5796172,
+      "lon": 1.6428024
+    },
+    {
+      "type": "node",
+      "id": 3699568567,
+      "lat": 42.5798074,
+      "lon": 1.6427919
+    },
+    {
+      "type": "node",
+      "id": 3699568568,
+      "lat": 42.5797899,
+      "lon": 1.6422036
+    },
+    {
+      "type": "node",
+      "id": 3699568569,
+      "lat": 42.5795997,
+      "lon": 1.6422141
+    },
+    {
+      "type": "node",
+      "id": 7117508149,
+      "lat": 42.5768591,
+      "lon": 1.6663685
+    },
+    {
+      "type": "node",
+      "id": 7117508150,
+      "lat": 42.5768947,
+      "lon": 1.666221
+    },
+    {
+      "type": "node",
+      "id": 7117508151,
+      "lat": 42.5769826,
+      "lon": 1.6662585
+    },
+    {
+      "type": "node",
+      "id": 7117508152,
+      "lat": 42.576946,
+      "lon": 1.6664087
+    },
+    {
+      "type": "node",
+      "id": 690708531,
+      "lat": 42.5417178,
+      "lon": 1.7329103
+    },
+    {
+      "type": "node",
+      "id": 690708588,
+      "lat": 42.5417109,
+      "lon": 1.7332443
+    },
+    {
+      "type": "node",
+      "id": 690708629,
+      "lat": 42.5414891,
+      "lon": 1.7329016
+    },
+    {
+      "type": "node",
+      "id": 690708640,
+      "lat": 42.5414821,
+      "lon": 1.7332356
+    },
+    {
+      "type": "node",
+      "id": 690708518,
+      "lat": 42.5438298,
+      "lon": 1.7319528
+    },
+    {
+      "type": "node",
+      "id": 690708536,
+      "lat": 42.5437507,
+      "lon": 1.7315863
+    },
+    {
+      "type": "node",
+      "id": 690708635,
+      "lat": 42.5433828,
+      "lon": 1.7318226
+    },
+    {
+      "type": "node",
+      "id": 2797680775,
+      "lat": 42.5434432,
+      "lon": 1.7321076
+    },
+    {
+      "type": "node",
+      "id": 2832678132,
+      "lat": 42.5434298,
+      "lon": 1.7317063
+    },
+    {
+      "type": "node",
+      "id": 5325452621,
+      "lat": 42.5435034,
+      "lon": 1.7316763
+    },
+    {
+      "type": "way",
+      "id": 285926388,
+      "nodes": [
+        2895661372,
+        9739286080,
+        2895661373,
+        9739286079,
+        9739286078,
+        2895661374,
+        9740873497,
+        2895661375,
+        2895661372
+      ]
+    }
+  ]
+}
