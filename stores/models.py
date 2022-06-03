@@ -1,13 +1,12 @@
-from contextlib import closing
-from pyexpat import model
 from django.db import models
 from django.contrib.gis.db import models
 from django.contrib.gis.geos import Point
 from django.core.validators import MaxValueValidator, MinValueValidator
+from django.utils import timezone
 
 class Store(models.Model):
     id = models.CharField(primary_key=True, max_length=100)
-    created_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(default=timezone.now)
     name = models.CharField(max_length=100)
     rating = models.FloatField(null=True, validators=[MinValueValidator(0.0), MaxValueValidator(5.0)])
     store_type = models.CharField(null=True, max_length=50)
