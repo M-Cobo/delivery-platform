@@ -3,7 +3,7 @@ from datetime import datetime
 from pathlib import Path
 import psycopg2
 
-DATA_FILENAME = 'data/sample-data.json'
+DATA_FILENAME = 'data/andorra-data.json'
 CITY = 'Andorra'
 
 def load_data():
@@ -85,8 +85,6 @@ def load_data():
 
     cur.close()
     conn.close()
-
-
 
 
 if __name__ == '__main__':

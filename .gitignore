@@ -1,6 +1,4 @@
 *.vscode/
 *.pyc
 **/__pycache__/
-*bin/
-*lib/
-*pyvenv.cfg
+*.venv/
