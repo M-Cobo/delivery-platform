@@ -19,9 +19,11 @@ from django.db import router
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from stores import views as stores_views
+from home import views as home_views
 
 router = DefaultRouter()
 
+router.register(r'home', home_views.HomePage, basename = 'home')
 router.register(r'stores', stores_views.StoreView, basename = 'stores')
 
 urlpatterns = [
