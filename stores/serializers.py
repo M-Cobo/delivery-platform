@@ -5,7 +5,7 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 from stores.models import Store
 
-class NearbyStoreSerializer(serializers.Serializer):
+class NearbyStoreSerializer(serializers.HyperlinkedModelSerializer):
     distance = serializers.SerializerMethodField()
 
     def get_distance(self, instance):
