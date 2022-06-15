@@ -2,8 +2,6 @@ import {
     updateSelectedStore,
 } from './stores.js';
 
-mapboxgl.accessToken = 'your-secret-key';
-
 /**
  * @typedef {import('./api').Store} Store
  */
@@ -28,18 +26,12 @@ mapboxgl.accessToken = 'your-secret-key';
  * @return {Object} Map
  */
 export function addMap() {
-    const map = {}
+    const map = L.map('map').setView([0, 0], 2);
+    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
     return map;
-}
-
-/**
- * Add a geoCoder control to a mapbox map
- * @param {Object} map
- * @param {function} geocoderCallback - The callback that handles the response.
- */
-export function addGeocoder(map, geocoderCallback) {
-    const geocoder = {}
 }
 
 /**
@@ -47,9 +39,26 @@ export function addGeocoder(map, geocoderCallback) {
  * @param {Store[]} stores
  * @return {StoresGeoJSON} Stores in GeoJSON
  */
-export function convertToGeoJson(stores) {
-    return {}
-}
+export function convertToGeoJson(stores) {return {
+    type: "FeatureCollection",
+    features: stores.map(store => {
+        return {
+            type: "Feature",
+            geometry: {
+                type: 'Point',
+                coordinates: [store.longitude, store.latitude]
+            },
+            properties: {
+                id: store.id,
+                name: store.name,
+                address: store.address,
+                phone: store.phone,
+                distance: store.distance,
+                rating: store.rating,
+            }
+        }
+    })
+}}
 
 /**
  * Display stores on map
@@ -57,7 +66,30 @@ export function convertToGeoJson(stores) {
  * @param {StoresGeoJSON} storesGeoJson
  */
 export function plotStoresOnMap(map, storesGeoJson) {
-    
+    var storeIcon = L.divIcon({
+        className: 'store',
+        iconSize: [30, 30]
+    });
+
+    for(let store of storesGeoJson.features) {
+        // create a HTML element for each feature  
+        let el = document.createElement('div');  
+        el.className = 'store';  
+        el.title = `${store.properties.name}<br>` +  
+        `approximately ${store.properties.distance.toFixed(2)} km away<br>` +  
+        `Address: ${store.properties.address || "N/A"}<br>` +  
+        `Phone: ${store.properties.phone || "N/A"}<br>` +  
+        `Rating: ${store.properties.rating || "N/A"}`; 
+        // make a marker for each feature and add to the map
+        L.geoJSON(store, {
+            pointToLayer: function (feature, latlgn) {
+                return L.marker(latlgn, {icon: storeIcon});
+            }
+        }).addTo(map).bindPopup(el.title);
+        el.addEventListener('click', function(e) {
+            updateSelectedStore(store.properties.id);
+        });
+    }
 }
 
 /**

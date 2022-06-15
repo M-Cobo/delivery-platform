@@ -25,7 +25,7 @@ export function updateSelectedStore(storeId) {
 
 /**
  * Fetch and display nearby stores
- * @typedef {import('./map').StoresGeoJSON} StoresGeoJSON
+ * @typedef {import('./map.js').StoresGeoJSON} StoresGeoJSON
  * @param {Object} map
  * @param {number} latitude
  * @param {number} longitude

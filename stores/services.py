@@ -1,4 +1,3 @@
-from turtle import distance
 from django.contrib.gis.geos import Point
 from django.contrib.gis.db.models.functions import Distance
 from django.contrib.gis.measure import D

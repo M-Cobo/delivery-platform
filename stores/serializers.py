@@ -1,6 +1,3 @@
-from dataclasses import fields
-from pyexpat import model
-from turtle import distance
 from rest_framework import serializers
 from django.contrib.auth.models import User
 from stores.models import Store
