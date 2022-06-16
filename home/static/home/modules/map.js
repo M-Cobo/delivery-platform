@@ -85,7 +85,7 @@ export function plotStoresOnMap(map, storesGeoJson) {
             pointToLayer: function (feature, latlgn) {
                 return L.marker(latlgn, {icon: storeIcon});
             }
-        }).addTo(map).bindPopup(el.title);
+        }).addTo(map).bindTooltip(el.title);
         el.addEventListener('click', function(e) {
             updateSelectedStore(store.properties.id);
         });
