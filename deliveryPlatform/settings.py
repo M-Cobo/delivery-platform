@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.gis',
     'home',
     'stores',
+    'wishlists'
 ]
 
 REST_FRAMEWORK = {
