@@ -48,7 +48,10 @@ export async function displayMyTrips(latitude, longitude) {
  * Create a new wishlist
  */
 export async function createWishlist() {
-
+    const wishlistInput = document.getElementById("wishlist-items").value.trim();
+    if (USERNAME && SELECTED_STORE_ID && wishlistInput) {
+        addWishlist(USERNAME, wishlistInput.split(","), SELECTED_STORE_ID).catch(error => console.error(error));
+    }
 }
 
 /**

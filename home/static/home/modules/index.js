@@ -21,8 +21,7 @@ let MAP = {};
 
 MAP = addMap();
 
-
-var geocoder = L.Control.geocoder().on('markgeocode', (data) => {
+L.Control.geocoder().on('markgeocode', (data) => {
     Promise.all([
         displayNearbyStores(MAP, data.geocode.center.lat, data.geocode.center.lng),
         displayNearbyWishlists(data.geocode.center.lat, data.geocode.center.lng),
@@ -32,3 +31,7 @@ var geocoder = L.Control.geocoder().on('markgeocode', (data) => {
         setStoreNavigation(MAP, storesGeoJson);
     });
   }).addTo(MAP);
+
+  document.getElementById('add-wishlist').onclick = function(e) {
+      createWishlist();
+  }

@@ -1,14 +1,15 @@
 from django.db import models
 from django.contrib.postgres.fields import ArrayField
+from django.utils import timezone
 
 WISHLIST_STATUSES = [
         ("PENDING", "PENDING"),
         ("ACCEPTED", "ACCEPTED"),
-        ("FULFILLED", "FULFILLED"),
+        ("FULFILLED", "FULFILLED")
     ]
 
 class Wishlist(models.Model):
-    created_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(default=timezone.now)
     buyer = models.CharField(max_length=100)
     wishmaster = models.CharField(max_length=100)
     items = ArrayField(models.CharField(max_length=100))

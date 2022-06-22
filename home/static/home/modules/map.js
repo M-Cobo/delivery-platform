@@ -83,12 +83,11 @@ export function plotStoresOnMap(map, storesGeoJson) {
         // make a marker for each feature and add to the map
         L.geoJSON(store, {
             pointToLayer: function (feature, latlgn) {
-                return L.marker(latlgn, {icon: storeIcon});
+                return L.marker(latlgn, {icon: storeIcon}).on('click', function(e) {
+                    updateSelectedStore(store.properties.id);
+                });
             }
         }).addTo(map).bindTooltip(el.title);
-        el.addEventListener('click', function(e) {
-            updateSelectedStore(store.properties.id);
-        });
     }
 }
 
