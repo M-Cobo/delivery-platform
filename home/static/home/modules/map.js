@@ -97,7 +97,7 @@ export function plotStoresOnMap(map, storesGeoJson) {
  * @param {StoreFeatureObject} point
  */
 export function flyToStore(map, point) {
-
+    map.flyTo([point.geometry.coordinates[1], point.geometry.coordinates[0]], 18);
 }
 
 /**
@@ -106,5 +106,25 @@ export function flyToStore(map, point) {
  * @param {StoreFeatureObject} point
  */
 export function displayStoreDetails(map, point) {
-    
+    const popup = map.openPopup(
+        `  
+            <details>  
+                <summary><h2>${point.properties.name}</h2></summary>  
+                <dl>  
+                    <dt>Distance</dt>  
+                    <dd>Approximately <strong>${point.properties.distance.toFixed(2)} km</strong> away</dd>
+                    
+                    <dt>Address</dt>  
+                    <dd>${point.properties.address || 'N/A'}</dd>
+                    
+                    <dt>Phone</dt>  
+                    <dd>${point.properties.phone || 'N/A'}</dd>
+                    
+                    <dt>Rating</dt>  
+                    <dd>${point.properties.rating || 'N/A'}</dd>  
+                </dl>  
+            </details>  
+        `, [point.geometry.coordinates[1], point.geometry.coordinates[0]]
+    );
+    return popup;
 }
