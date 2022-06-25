@@ -23,7 +23,12 @@ import {
  * @param {number} longitude
  */
 export async function displayNearbyWishlists(latitude, longitude) {
-
+    try {
+        const nearbyWishlists = await fetchNearbyWishlists(latitude, longitude);
+        renderWishlists('nearby-wishlists', nearbyWishlists);
+    } catch (error) {
+        console.error(error);
+    }
 }
 
 /**
@@ -32,7 +37,12 @@ export async function displayNearbyWishlists(latitude, longitude) {
  * @param {number} longitude
  */
 export async function displayMyRequests(latitude, longitude) {
-
+    try {
+        const myWishlists = await fetchNearbyWishlists(latitude, longitude, {buyer: USERNAME});
+        renderWishlists('my-wishlists', myWishlists);
+    } catch(error) {
+        console.error(error);
+    }
 }
 
 /**
@@ -41,7 +51,12 @@ export async function displayMyRequests(latitude, longitude) {
  * @param {number} longitude
  */
 export async function displayMyTrips(latitude, longitude) {
-
+    try {
+        const myTrips = await fetchNearbyWishlists(latitude, longitude, {wishmaster: USERNAME});
+        renderWishlists('my-trips', myTrips);
+    } catch(error) {
+        console.error(error);
+    }
 }
 
 /**
