@@ -2,7 +2,7 @@ from rest_framework import viewsets
 from rest_framework.response import Response
 from .models import Wishlist
 from .serializers import WishlistSerializer
-from .services import create_wishlist, get_wishlists
+from .services import create_wishlist, get_wishlists, update_wishlist
 
 class WishlistView(viewsets.ModelViewSet):
     queryset = Wishlist.objects.all()
@@ -16,6 +16,16 @@ class WishlistView(viewsets.ModelViewSet):
         wishlist = create_wishlist(buyer, items, store)
         wishlist_data = WishlistSerializer(wishlist, many=False)
 
+        return Response(wishlist_data.data)
+
+    def partial_update(self, request, pk):  
+        wishlist = update_wishlist(  
+            pk=pk,  
+            wishmaster=self.request.data.get('wishmaster'),  
+            status=self.request.data.get('status')  
+        )
+
+        wishlist_data = WishlistSerializer(wishlist, many=False)  
         return Response(wishlist_data.data)
 
 def list(self, request):

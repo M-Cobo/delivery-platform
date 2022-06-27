@@ -74,5 +74,32 @@ export async function createWishlist() {
  * @param {Event} event
  */
 export async function updateWishlistStatus(event) {
-
+    switch(event.target.className) {  
+        case 'accept':  
+            event.preventDefault();  
+            updateWishlist(  
+                event.target.getAttribute('data-id'),  
+                {  
+                    status: 'ACCEPTED',  
+                    wishmaster: USERNAME  
+                }  
+            ).then((result) => {  
+                updateWishlistNode(event.target, 'ACCEPTED');  
+            }).catch(error => console.error(error));
+            
+            break;  
+        case 'accepted':  
+            event.preventDefault();  
+            updateWishlist(  
+                event.target.getAttribute('data-id'),  
+                {  
+                    status: 'FULFILLED',  
+                    wishmaster: USERNAME  
+                }  
+            ).then((result) => {  
+                updateWishlistNode(event.target, 'FULFILLED');  
+            }).catch(error => console.error(error));
+            
+            break;  
+    }  
 }
